@@ -1,0 +1,13 @@
+import random
+n=random.randint(1,49)
+g=n
+print("Your draws are")
+print(g)
+for i in range(0,5):
+ n=random.randint(1,49)
+ if g==n:
+    n=random.randint(1,49)
+
+ g=n
+ print(g)
+
